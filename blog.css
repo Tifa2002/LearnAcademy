@@ -1,0 +1,59 @@
+.market{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.img-market>img{
+    margin: 50px;
+    width: 300px;
+} 
+.market-content{
+    font-family: sans-serif;
+}
+.market-content p{
+    font-size: 20px;
+}
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.facilities>h3{
+    font-size: 30px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities-col p{
+    padding: 0;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+a{
+    text-decoration: none;
+    color: #f44336;
+}

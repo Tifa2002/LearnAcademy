@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(Assets/cambridge-college.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="contactUs.css">
+    <style>
+        label{
+            background-color: #f44336;
+            font-size: 25px;
+            padding: 3px;
+            border-radius: 12px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 style="font-size: 3em;">CONTACT <b style="color: #f44336;">US</b></h1>
+        <h5 style="font-size: 2em;line-height: 60px;">We’d be delighted to answer any of your questions about our <br>
+            <b style="color: #f44336;">Oxford Summer School</b> or <b style="color: #f44336;">online programmes</b> in order <br>
+            to make sure we’re the right fit for you.Steph from <br>
+            our team is our main point of contact for parents and students,<br>
+            and she will look forward to hearing from you.</h5>
+    </div>
+
+    <div style="width: 100%; display: flex;flex-direction: column; align-items: center;">
+        <div><h2 style="font-family:serif;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 60px;">GET IN TOUCH</h2></div>
+        <div>
+            <form action="/ThankYou.html" method="get">
+                <label for="firstName" style="font-size: 25px;">First Name</label>
+                <br>
+                <br>
+                <input type="text" name="firstName" id="firstName" required style="width: 100%;font-style: normal;font-weight: 500; font-size: 18px; margin-bottom: 20px;display: block;line-height: 27px;">
+                <label for="lasstName" style="font-size: 25px;">Last Name</label>
+                <br>
+                <br>
+                <input type="text" name="lastName" id="lastName" style="width: 100%;margin-bottom: 20px; display: block;line-height: 27px;">
+                <label for="email" style="font-size: 25px;">Email</label>
+                <br>
+                <br>
+                <input type="email" name="email" id="email" required style="width: 100%;margin-bottom: 20px; display: block;line-height: 27px;">
+                <label for="phone" style="font-size: 25px;">Phone (Optional)</label>
+                <br>
+                <br>
+                <input type="tel" name="phone" id="phone" style="width: 100%;margin-bottom: 20px; display: block;line-height: 27px;">
+                <label for="lasstName" style="font-size: 25px;">Are You a Student or a Parent?</label>
+                <br>
+                <br>
+                <select name="position" id="position" style="width: 102%;margin-bottom: 20px;font-size: 20px;display: block;">
+                    <option value=""></option>
+                    <option value="Parent">Parent</option>
+                    <option value="Student">Student</option>
+                </select>
+                <label for="message" style="font-size: 25px;">Message</label>
+                <br>
+                <br>
+                <textarea name="message" id="message" style="width: 100%;height: 230px;font-size: 20px;margin-bottom: 5px;"></textarea>
+                <input type="submit" style="color: white; font-size: 25px;background-color: #f44336;border-radius: 10px;border: transparent; margin-bottom: 20px;">
+            </form>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
